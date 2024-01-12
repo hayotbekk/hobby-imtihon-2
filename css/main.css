@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
 .nav-btn {
   padding: 10px 32px;
   border: 1px solid transparent;
@@ -96,7 +97,7 @@
   z-index: -1;
 }
 
-.hero-container {
+.hero-back::after {
   content: "";
   position: absolute;
   top: 0;
@@ -108,6 +109,33 @@
   background-position: right top;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+.hero-container {
+  display: flex;
+  margin-top: 70px;
+}
+
+.hero-left-h1 {
+  font-family: "Nunito", sans-serif;
+  width: 617px;
+  font-size: 72px;
+  font-weight: 700;
+  margin-top: 110px;
+  margin-right: 30px;
+}
+
+.black-1, .black-2 {
+  color: #374A3D;
+}
+
+.green-1 {
+  color: #0CA941;
+}
+
+.hero-right-img {
+  width: 570px;
+  size: 100px;
 }
 
 *, *::before, *::after {
@@ -133,6 +161,7 @@ img {
 
 body {
   font-family: "Noto Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

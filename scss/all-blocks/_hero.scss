@@ -1,4 +1,4 @@
-.hero-container{
+.hero-back::after{
     content: "";
     position: absolute;
     top: 0;
@@ -10,4 +10,33 @@
     background-position: right top;
     background-repeat: no-repeat;
     z-index: -1; 
+}
+
+.hero-container{
+    display: flex;
+    // align-items: center;
+    margin-top: 70px;
+}
+
+.hero-left-h1{
+    font-family: 'Nunito', sans-serif;
+    width: 617px;
+    font-size: 72px;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-right: 30px;
+}
+
+.black-1, .black-2{
+    color: $dark-green;
+}
+
+.green-1{
+    color: $light-green;
+}
+
+.hero-right-img{
+    width: 570px;
+    // height: 675px;
+    size: 100px;
 }
