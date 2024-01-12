@@ -1,0 +1,45 @@
+.header {
+    padding-top: 48px;
+    margin-bottom: 50px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+
+.header-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 33px;
+    width: 50%; 
+    height: 100%;
+    background-image: url('/images/header-left-img.png');
+    background-size: 134px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    z-index: 1;
+    
+
+}
+
+.header-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/header-grad.png'); 
+    background-size: 700px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    transform-origin: top left;
+    z-index: -1; 
+}
+
+

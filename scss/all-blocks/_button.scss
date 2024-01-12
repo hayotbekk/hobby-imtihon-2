@@ -1,0 +1,19 @@
+.nav-btn{
+    padding:10px 32px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: $light-color;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: $medium-size;
+    line-height: 21px;
+    background-color: $light-green;
+    cursor: pointer;
+    transition: all ease .3s;
+
+}
+.nav-btn:hover{
+    background-color: $btn-hover;
+    transition: all ease .3s;
+}
+
