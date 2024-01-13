@@ -18,7 +18,7 @@
 }
 
 .hero-left-h1{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     width: 617px;
     font-size: 72px;
     font-weight: 700;
@@ -50,6 +50,10 @@
     margin-bottom: 41px;
 }
 
+.hero-left-btn-link{
+    display: flex;
+    align-items: center;
+}
 
 .hero-left-btn-p{
     margin-right: 10px;
@@ -60,5 +64,7 @@
 .hero-strelka-2{
     width: 106px;
     height: 80px;
+    margin-top: 40px;
+    margin-left: 40px;
   
 }

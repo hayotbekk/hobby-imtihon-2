@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap");
 .nav-btn {
   padding: 10px 32px;
   border: 1px solid transparent;
@@ -127,7 +127,7 @@
 }
 
 .hero-left-h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Fredoka", sans-serif;
   width: 617px;
   font-size: 72px;
   font-weight: 700;
@@ -158,6 +158,11 @@
   margin-bottom: 41px;
 }
 
+.hero-left-btn-link {
+  display: flex;
+  align-items: center;
+}
+
 .hero-left-btn-p {
   margin-right: 10px;
   cursor: pointer;
@@ -166,6 +171,8 @@
 .hero-strelka-2 {
   width: 106px;
   height: 80px;
+  margin-top: 40px;
+  margin-left: 40px;
 }
 
 *, *::before, *::after {
@@ -191,7 +198,7 @@ img {
 
 body {
   font-family: "Noto Sans", sans-serif;
-  font-family: "Nunito", sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
