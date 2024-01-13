@@ -19,6 +19,16 @@
   transition: all ease 0.3s;
 }
 
+.hero-left-btn {
+  border: 2px solid #0CA941;
+  border-radius: 50%;
+  padding: 20px 36px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -97,7 +107,7 @@
   z-index: -1;
 }
 
-.hero-back::after {
+.hero-back::before {
   content: "";
   position: absolute;
   top: 0;
@@ -136,6 +146,26 @@
 .hero-right-img {
   width: 570px;
   size: 100px;
+}
+
+.hero-left-p {
+  font-family: "Noto Sans", sans-serif;
+  width: 534px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #707070;
+  margin-bottom: 41px;
+}
+
+.hero-left-btn-p {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.hero-strelka-2 {
+  width: 106px;
+  height: 80px;
 }
 
 *, *::before, *::after {

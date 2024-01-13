@@ -1,4 +1,4 @@
-.hero-back::after{
+.hero-back::before{
     content: "";
     position: absolute;
     top: 0;
@@ -38,4 +38,27 @@
     width: 570px;
     // height: 675px;
     size: 100px;
+}
+
+.hero-left-p{
+    font-family: 'Noto Sans', sans-serif;
+    width: 534px;
+    font-weight: 500;
+    font-size: $medium-2-size;
+    line-height: 32px;
+    color: $gray;
+    margin-bottom: 41px;
+}
+
+
+.hero-left-btn-p{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.hero-strelka-2{
+    width: 106px;
+    height: 80px;
+  
 }

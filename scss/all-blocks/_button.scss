@@ -17,3 +17,17 @@
     transition: all ease .3s;
 }
 
+
+// hero btn styles
+
+.hero-left-btn{
+    border: 2px solid $light-green;
+    border-radius: 50%;
+    padding: 20px 36px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
