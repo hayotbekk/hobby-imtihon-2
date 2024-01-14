@@ -2,7 +2,9 @@
     height: 234px;
     // color: $light-color;
     margin-bottom: 142px;  
-    display: flex;  
+    display: flex; 
+    border: 1px solid transparent;
+    border-radius: 30px; 
 
     
 
@@ -19,9 +21,10 @@
 
 
 .we-give-left{
-    position: absolute;
+    position: relative;
     margin-top: 49px;
     margin-left: 151px;
+    margin-right: 85px;
 }
 
 .we-give-h2{
@@ -54,5 +57,50 @@
     position: absolute;
     top: 980px;
     left: 10px;
+}
+
+
+// right
+
+.we-give-right{
+    position: relative;
+    margin-top: 75px;
+}
+
+.we-give-right-list{
+    display: flex;
+    
+}
+
+.we-give-right-item{
+    margin-right: 70px;
+
+
+
+    h2{
+        font-family: 'Noto Sans', sans-serif;
+        color: $light-green;
+        font-size: $pro-large-size;
+        font-weight: 800;
+        margin-bottom: 9px;
+        
+
+        background-image: url(/images/aylanacha.png);
+        background-repeat: no-repeat;
+        background-size: 90px;
+        
+        
+
+    }
+
+    p{
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
+        font-size: $medium-size;
+        line-height: 26px;
+        color: $dark-green;
+        width: 161px;
+
+    }
 }
 
