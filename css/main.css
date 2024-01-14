@@ -254,6 +254,41 @@
   width: 161px;
 }
 
+.wapg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 89px;
+}
+
+.wapg-left-img {
+  width: 638px;
+  height: 527px;
+}
+
+.wapg-right {
+  width: 458px;
+}
+
+.wapg-right-h2 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  width: 353px;
+  color: #374A3D;
+  margin-bottom: 31px;
+}
+
+.wapg-right-p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #374A3D;
+  width: 458px;
+}
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
