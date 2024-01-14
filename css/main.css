@@ -29,6 +29,30 @@
   cursor: pointer;
 }
 
+.add-btn {
+  text-align: center;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -30px;
+  width: 128px;
+  height: 44px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #374A3D;
+  opacity: 80%;
+  border: 1px solid rgba(184, 177, 177, 0.616);
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.add-btn:hover {
+  box-shadow: rgba(100, 100, 111, 0.489) 0px 7px 29px 0px;
+  transition: all ease 0.3s;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -361,10 +385,84 @@
 
 .choose-your-h2 {
   text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 60px;
+  color: #374A3D;
 }
 
 .choose-your-p {
   text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 51px;
+}
+
+.choose-your-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choose-your-item {
+  text-align: center;
+  border: 1px solid rgba(184, 177, 177, 0.616);
+  border-radius: 37px;
+  width: 360px;
+  height: 437px;
+  transition: all ease 0.3s;
+}
+.choose-your-item img {
+  margin-top: 31px;
+}
+.choose-your-item h3 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 4px;
+  color: #374A3D;
+  margin-bottom: 8px;
+}
+.choose-your-item .choose-star {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+.choose-your-item .choose-star .choose-star-p {
+  margin-left: 12px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #374A3D;
+  opacity: 70%;
+}
+
+.choose-cost {
+  text-align: start;
+  margin-left: 60px;
+  width: 50px;
+}
+
+.choose-price {
+  font-size: 12px;
+  opacity: 60%;
+}
+
+.choose-cost-h4 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0CA941;
+}
+
+.choose-your-item:hover {
+  box-shadow: rgba(100, 100, 111, 0.489) 0px 7px 29px 0px;
+  transition: all ease 0.3s;
 }
 
 *, *::before, *::after {

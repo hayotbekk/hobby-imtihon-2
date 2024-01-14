@@ -31,3 +31,32 @@
 }
 
 
+// choose your dream plant btn
+
+
+.add-btn{
+    text-align: center;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -30px;
+    width: 128px;
+    height: 44px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: $medium-size;
+    color: $dark-green;
+    opacity: 80%;
+    border: 1px solid rgba(184, 177, 177, 0.616);
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+
+    transition: all ease .3s;
+}
+
+.add-btn:hover{
+    box-shadow: rgba(100, 100, 111, 0.489) 0px 7px 29px 0px;
+    transition: all ease .3s;
+}
+
+
