@@ -1,0 +1,50 @@
+.ready{
+    height: 509px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #F8F8F8;
+
+    box-shadow: rgba(100, 100, 111, 0.349) 0px 7px 29px 0px;
+ 
+
+
+
+    h2{
+        font-family: 'Fredoka', sans-serif;
+        font-weight: 600;
+        font-size: $large-2-size;
+        line-height: 60px;
+        text-align: center;
+        color: $dark-green;
+        margin-top: 96px;
+        margin-bottom: 31px;
+    }
+    p{
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400;
+        font-size: $medium-size;
+        line-height: 32px;
+        text-align: center;
+        color: $dark-green;
+        opacity: 80%;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
+.subscription-container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    input {
+        padding: 25px 330px 25px 34px;
+        margin-bottom: 10px;
+        border: 1px solid $light-green;
+        border-radius: 10px;
+        color: #C4C4C4;
+    }
+
+    
+}

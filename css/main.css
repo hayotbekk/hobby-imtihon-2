@@ -53,6 +53,25 @@
   transition: all ease 0.3s;
 }
 
+.subs-btn {
+  position: absolute;
+  padding: 25.9px 71px;
+  background-color: #0CA941;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: -70px;
+  z-index: 2;
+  margin-top: 0.6px;
+  transition: all ease 0.3s;
+}
+
+.subs-btn:hover {
+  background-color: #22df61;
+  transition: all ease 0.3s;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -404,6 +423,7 @@
 .choose-your-list {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 134px;
 }
 
 .choose-your-item {
@@ -463,6 +483,47 @@
 .choose-your-item:hover {
   box-shadow: rgba(100, 100, 111, 0.489) 0px 7px 29px 0px;
   transition: all ease 0.3s;
+}
+
+.ready {
+  height: 509px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: #F8F8F8;
+  box-shadow: rgba(100, 100, 111, 0.349) 0px 7px 29px 0px;
+}
+.ready h2 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 60px;
+  text-align: center;
+  color: #374A3D;
+  margin-top: 96px;
+  margin-bottom: 31px;
+}
+.ready p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #374A3D;
+  opacity: 80%;
+  margin-bottom: 50px;
+}
+
+.subscription-container {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.subscription-container input {
+  padding: 25px 330px 25px 34px;
+  margin-bottom: 10px;
+  border: 1px solid #0CA941;
+  border-radius: 10px;
+  color: #C4C4C4;
 }
 
 *, *::before, *::after {

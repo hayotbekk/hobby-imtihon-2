@@ -59,4 +59,25 @@
     transition: all ease .3s;
 }
 
+// subscribe btn
+
+.subs-btn{
+        position: absolute;
+        padding: 25.9px 71px;
+        background-color: $light-green;
+        color: $light-color;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: -70px;
+        z-index: 2;
+        margin-top: .6px;
+        transition: all ease .3s;
+    
+}
+.subs-btn:hover {
+    background-color: $btn-hover;
+    transition: all ease .3s;
+}
+
 
