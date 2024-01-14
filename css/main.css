@@ -292,6 +292,7 @@
 .pro-service {
   display: flex;
   align-items: center;
+  margin-bottom: 120px;
 }
 
 .pro-service-left {
@@ -312,6 +313,10 @@
   font-size: 16px;
   color: #374A3D;
   line-height: 32px;
+}
+.pro-service-left button {
+  width: 189px;
+  height: 61px;
 }
 
 .pro-service-right-list {
@@ -352,6 +357,14 @@
 .pro-service-right-item:hover {
   box-shadow: rgba(100, 100, 111, 0.489) 0px 7px 29px 0px;
   transition: all ease 0.3s;
+}
+
+.choose-your-h2 {
+  text-align: center;
+}
+
+.choose-your-p {
+  text-align: center;
 }
 
 *, *::before, *::after {

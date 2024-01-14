@@ -1,6 +1,7 @@
 .pro-service{
     display: flex;
     align-items: center;
+    margin-bottom: 120px;
 
 }
 
@@ -25,6 +26,12 @@
         font-size: $medium-size;
         color: $dark-green;
         line-height: 32px;
+    }
+
+
+    button{
+        width: 189px;
+        height: 61px;
     }
 }
 
