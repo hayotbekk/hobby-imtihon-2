@@ -1,0 +1,58 @@
+.we-give{
+    height: 234px;
+    // color: $light-color;
+    margin-bottom: 142px;  
+    display: flex;  
+
+    
+
+
+
+
+
+
+
+    -webkit-box-shadow: 1px 14px 29px 15px rgba(12, 169, 65, 0.2);
+    -moz-box-shadow: 1px 14px 29px 15px rgba(12, 169, 65, 0.2);
+    box-shadow: 1px 14px 29px 15px rgba(12, 169, 65, 0.2);
+}
+
+
+.we-give-left{
+    position: absolute;
+    margin-top: 49px;
+    margin-left: 151px;
+}
+
+.we-give-h2{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: $large-2-size;
+    line-height: 40px;
+    width: 290px;
+    color: $dark-green;
+    margin-bottom: 14px;
+
+
+
+}
+
+.we-give-p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: $medium-size;
+    line-height: 26px;
+    color: $dark-green;
+    width: 310px;
+   
+
+}
+
+.we-give-left-img{
+    width: 289px;
+    height: 350px;
+    position: absolute;
+    top: 980px;
+    left: 10px;
+}
+

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap");
 .nav-btn {
   padding: 10px 32px;
   border: 1px solid transparent;
@@ -173,6 +173,51 @@
   height: 80px;
   margin-top: 40px;
   margin-left: 40px;
+}
+
+.kartus {
+  margin-top: -100px;
+  margin-left: 400px;
+}
+
+.we-give {
+  height: 234px;
+  margin-bottom: 142px;
+  display: flex;
+  box-shadow: 1px 14px 29px 15px rgba(12, 169, 65, 0.2);
+}
+
+.we-give-left {
+  position: absolute;
+  margin-top: 49px;
+  margin-left: 151px;
+}
+
+.we-give-h2 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  width: 290px;
+  color: #374A3D;
+  margin-bottom: 14px;
+}
+
+.we-give-p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #374A3D;
+  width: 310px;
+}
+
+.we-give-left-img {
+  width: 289px;
+  height: 350px;
+  position: absolute;
+  top: 980px;
+  left: 10px;
 }
 
 *, *::before, *::after {
