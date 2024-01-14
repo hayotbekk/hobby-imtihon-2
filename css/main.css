@@ -223,6 +223,65 @@
   margin-left: 400px;
 }
 
+.footer-container {
+  display: flex;
+  height: 327px;
+}
+
+.footer-hobby {
+  margin-right: 121px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-hobby-p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 70%;
+  width: 301px;
+  margin-bottom: 35px;
+}
+
+.footer-about-list {
+  display: flex;
+}
+
+.footer-about-item {
+  margin-right: 110px;
+}
+.footer-about-item h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.footer-about-item a {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  opacity: 70%;
+}
+.footer-about-item p {
+  margin-bottom: 10px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+}
+
+.down-footer-chiziq {
+  margin-bottom: -30px;
+}
+
+.down-footer-gul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
 .we-give {
   height: 234px;
   margin-bottom: 142px;
@@ -491,6 +550,7 @@
   border-radius: 20px;
   background-color: #F8F8F8;
   box-shadow: rgba(100, 100, 111, 0.349) 0px 7px 29px 0px;
+  margin-bottom: 129px;
 }
 .ready h2 {
   font-family: "Fredoka", sans-serif;

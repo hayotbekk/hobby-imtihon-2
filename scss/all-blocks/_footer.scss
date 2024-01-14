@@ -1,0 +1,67 @@
+.footer-container{
+    display: flex;
+    height: 327px;
+    
+}
+
+.footer-hobby{
+    margin-right: 121px;
+}
+
+.footer-logo{
+    margin-bottom: 20px;
+}
+
+.footer-hobby-p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: $medium-size;
+    opacity: 70%;
+    width: 301px;
+    margin-bottom: 35px;
+
+}
+
+
+.footer-about-list{
+    display: flex;
+ 
+}
+
+
+.footer-about-item{
+    margin-right: 110px;
+
+
+    h3{
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 600;
+        font-size: $large-size;
+        margin-bottom: 20px;
+    }
+
+    a{
+        display: block;
+        margin-bottom: 10px;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 600;
+        font-size: $medium-size;
+        opacity: 70%;
+    }
+    p{
+        margin-bottom: 10px;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 700;
+    }
+}
+
+
+.down-footer-chiziq{
+    margin-bottom: -30px;
+}
+
+.down-footer-gul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
